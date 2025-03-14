@@ -7,12 +7,16 @@ export default function AboutSection() {
     "TypeScript",
     "React",
     "Next.js",
-    "Node.js",
     "Tailwind CSS",
     "UI/UX Design",
-    "Responsive Design",
-    "Git",
     "Figma",
+    "Stable Diffusion",
+    "Midjourney",
+    "Shadcn UI",
+    "Sales Management",
+    "Gpt",
+    "Claude",
+
   ]
 
   return (
@@ -30,13 +34,10 @@ export default function AboutSection() {
         <div className="space-y-6">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">About Me</h2>
           <p className="text-muted-foreground md:text-lg">
-            I'm a passionate developer and designer with a focus on creating intuitive, user-friendly digital
-            experiences. With a background in both design and development, I bring a unique perspective to every
-            project.
+            I'm a Full Stack Developer with a unique journey through design and business. Starting as a UX/UI designer, I developed a keen eye for creating beautiful, user-centric experiences. My time in sales management at nFactorial School taught me the importance of understanding user needs and business objectives.
           </p>
           <p className="text-muted-foreground md:text-lg">
-            My approach combines technical expertise with creative problem-solving, allowing me to build solutions that
-            are not only functional but also aesthetically pleasing and enjoyable to use.
+            Today, I combine my design sensibility, business acumen, and technical skills to create web applications that not only look great but also deliver real value. I believe the best digital solutions emerge when you understand both the user interface and the underlying technology.
           </p>
           <div className="space-y-3">
             <h3 className="text-xl font-medium">Skills & Technologies</h3>

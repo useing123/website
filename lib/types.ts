@@ -6,6 +6,11 @@ export interface ProjectType {
   technologies: string[]
   demoUrl?: string
   repoUrl?: string
+  metrics?: {
+    name: string
+    value: string
+    icon?: string
+  }[]
 }
 
 export interface ExperienceType {

@@ -27,13 +27,29 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         <CardDescription>{project.description}</CardDescription>
       </CardHeader>
       <CardContent>
-        <div className="flex flex-wrap gap-2">
+        <div className="flex flex-wrap gap-2 mb-4">
           {project.technologies.map((tech) => (
             <Badge key={tech} variant="secondary" className="px-2 py-0.5 text-xs">
               {tech}
             </Badge>
           ))}
         </div>
+        
+        {project.metrics && (
+          <div className="grid grid-cols-2 gap-2 mt-4 text-sm">
+            {project.metrics.map((metric, index) => (
+              <div key={index} className="flex items-center gap-1.5 border rounded-md p-2">
+                {metric.icon && (
+                  <span className="text-muted-foreground" dangerouslySetInnerHTML={{ __html: metric.icon }} />
+                )}
+                <div>
+                  <div className="font-medium">{metric.value}</div>
+                  <div className="text-xs text-muted-foreground">{metric.name}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
       </CardContent>
       <CardFooter className="flex gap-2">
         {project.demoUrl && (
