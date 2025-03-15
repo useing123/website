@@ -31,7 +31,7 @@ export default function Navbar() {
     <>
       {/* Fixed "vibecoded website" text */}
       <div className="fixed bottom-8 right-8 z-40 rotate-[-5deg] rounded-lg bg-gradient-to-r from-purple-600 to-pink-600 px-4 py-2 font-bold text-white shadow-lg">
-        <span className="text-lg tracking-tight">vibecoded website</span>
+        <span className="text-lg tracking-tight">Vibecoded by Ossein</span>
       </div>
 
       <header
@@ -46,7 +46,7 @@ export default function Navbar() {
               <span className="font-bold">VC</span>
             </div>
             <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-xl font-bold tracking-tight text-transparent">
-              Vibecoded
+              Vibecoded by Ossein
             </span>
           </Link>
 
