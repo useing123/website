@@ -22,13 +22,13 @@ export default function AboutSection() {
   return (
     <div className="container">
       <div className="grid gap-8 md:grid-cols-2 md:gap-12 items-center">
-        <div className="relative aspect-square w-full max-w-md mx-auto overflow-hidden rounded-xl md:order-last">
+        <div className="relative aspect-square max-w-md mx-auto overflow-hidden rounded-xl md:order-last">
           <Image
-            src="/placeholder.svg?height=400&width=400"
+            src="/Ossein.jpg?height=400&width=400"
             alt="Profile"
             width={400}
             height={400}
-            className="object-cover"
+            className="object-cover w-full h-full"
           />
         </div>
         <div className="space-y-6">
