@@ -77,7 +77,8 @@ export default function Home() {
             Have a project in mind or just want to chat? Feel free to reach out.
           </p>
           <Button asChild size="lg" className="group">
-            <Link href="useing322@gmail.com">
+            // fix this link
+            <Link href="mailto:useing322@gmail.com">
               Get In Touch
               <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
             </Link>
